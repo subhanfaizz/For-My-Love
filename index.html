@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For You ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<canvas id="bg"></canvas>
+<canvas id="fx"></canvas>
+
+<section id="intro">
+  <div class="aurora"></div>
+  <div class="intro-in">
+    <div id="introLines"></div>
+    <button id="openBtn" class="btn glow hide">Open Your Surprise ✨</button>
+  </div>
+</section>
+
+<div id="music" class="glass">
+  <button id="musBtn" aria-label="Play or pause music">🎵</button>
+  <div><small id="musState">Paused</small><div class="bar" id="bar"><i></i></div></div>
+  <button id="muteBtn" aria-label="Mute or unmute">🔊</button>
+</div>
+
+<main id="main">
+  <!-- 2. Birthday reveal -->
+  <section class="sec">
+    <h1 class="rv" style="--d:.1s">Happy Birthday, <span class="name"></span> ❤️</h1>
+    <p class="rv sub" style="--d:.9s">Today is all about you.</p>
+    <p class="rv sub" style="--d:1.7s">So instead of giving you just another birthday wish, I wanted to make you something you could actually explore.</p>
+    <div class="rv" style="--d:2.6s" data-par="0.05"><div class="frame fl"><div class="fi"><img id="heroPhoto" alt=""></div></div></div>
+    <p class="rv sub" style="--d:3.3s">Because you deserve more than just a "Happy Birthday." ❤️</p>
+    <button class="btn rv" style="--d:3.9s" data-scroll="#gallery">Keep going ↓</button>
+  </section>
+
+  <!-- 3. Photos -->
+  <section class="sec" id="gallery">
+    <h2 class="rv">Okay... now let's talk about you.</h2>
+    <p class="rv sub">Because honestly, you're pretty hard not to admire.</p>
+    <div class="grid" id="gal"></div>
+  </section>
+
+  <!-- 4. Little things -->
+  <section class="sec">
+    <h2 class="rv">It's the little things...</h2>
+    <p class="rv sub">The things you probably don't even realize I love.</p>
+    <div class="cards" id="little"></div>
+  </section>
+
+  <!-- 5. Little moments -->
+  <section class="sec">
+    <h2 class="rv">Some of my favorite moments are the little ones.</h2>
+    <div class="msgs" id="moments"></div>
+  </section>
+
+  <!-- 6. Letter -->
+  <section class="sec" id="letterSec">
+    <h2 class="rv">Okay... this part is just for you.</h2>
+    <div class="env rv" id="env"><div class="paper-in"></div><div class="env-back"></div><div class="flap"></div><div class="env-front"></div></div>
+    <button class="btn rv" id="openLetter">Open my letter 💌</button>
+    <div class="letter" id="letter"><div class="paper"></div></div>
+  </section>
+
+  <!-- 7. Reasons -->
+  <section class="sec">
+    <h2 class="rv">Want to know why you're so special to me?</h2>
+    <button class="bigheart rv" id="bigHeart" aria-label="A glowing heart">❤</button>
+    <p class="reason" id="reasonText"></p>
+    <p class="count" id="reasonCount"></p>
+    <button class="btn" id="reasonBtn">Tell me ❤️</button>
+    <p class="rv sub" id="reasonEnd">Okay... I could literally keep going forever. ❤️</p>
+  </section>
+
+  <!-- 8. Small future reference (+ hidden easter egg heart) -->
+  <section class="sec">
+    <h2 class="rv">And there's still so much ahead of us...</h2>
+    <div class="cards fut" id="future"></div>
+    <p class="rv sub">I'm looking forward to all of them.</p>
+    <button id="eggHeart" aria-label="A tiny heart">♡</button>
+  </section>
+
+  <!-- 9. Gift -->
+  <section class="sec">
+    <p class="rv sub">I have one more thing for you...</p>
+    <div class="gift rv" id="gift"><div class="glowball"></div><div class="lid"></div><div class="box"></div></div>
+    <button class="btn rv" id="openGift">Open it 🎁</button>
+    <div id="giftMsg"></div>
+  </section>
+
+  <!-- 11. Ending -->
+  <section class="sec end" id="end">
+    <div class="rv" style="--d:.2s" data-par="0.04"><div class="frame sm fl"><div class="fi"><img id="endPhoto" alt=""></div></div></div>
+    <div id="endLines"></div>
+    <p id="made" class="rv made">Made especially for you. ❤️</p>
+  </section>
+</main>
+
+<div id="lb" role="dialog" aria-label="Photo viewer">
+  <button class="lbb" id="lbX" aria-label="Close">✕</button>
+  <button class="lbb" id="lbP" aria-label="Previous">‹</button>
+  <div class="lbimg"><img id="lbImg" alt=""></div>
+  <p id="lbCap"></p>
+  <button class="lbb" id="lbN" aria-label="Next">›</button>
+</div>
+
+<div id="egg" class="glass"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
