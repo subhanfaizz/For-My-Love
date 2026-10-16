@@ -9,9 +9,9 @@ const birthdayData = {
         "assets/image 11 (2).jpeg",
         "assets/image 3.jpeg",
         "assets/image 1.jpeg",
-        "assets/image 11 (1).jpeg",
-        "assets/image 10 (1).jpeg",
-        "assets/image 10 (2).jpeg"
+        "wani 1.jpeg",
+        "wani 2.jpeg",
+        "wani 3.jpeg"
     ],
 
     photoCaptions: [
