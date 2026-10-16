@@ -44,7 +44,23 @@ const birthdayData = {
     ],
 
     letter: `
-    LETTER_TEXT_HERE
+    Happy Birthday, Waniaaa! ❤️
+
+Finally, agaya apka day, Waniaaa! I hope tum hamesha khush raho, aur Allah kare ke is birthday ke baad tumhari life mein kabhi koi sadness na aaye. May Allah bless you with all the happiness in the world, meri jaan. I love you so much, my love. ❤️
+
+Jabse tum meri life mein aayi ho na, everything feels so much better. Pata nahi kaise, but tumhare aane ke baad choti choti cheezein bhi bohat achi lagne lagi hain. Tumhare saath har moment special lagta hai, and mashAllah, humein bhi 2 saal hone wale hain saath. Time ka pata hi nahi chala ke kab itna guzar gaya. ❤️
+
+Pichle birthday pe main tumhare saath nahi tha, but iss baar hoon, and InshAllah hamesha tumhare saath rahunga. I want to be there for you in every situation, tumhari happiness mein bhi aur tumhare sad moments mein bhi. I want to be the person jiske paas tum bina soche apni har baat share kar sako. I promise ke main hamesha tumhari feelings ki care karunga, tumhe samajhne ki koshish karunga aur kabhi jaan boojh kar tumhara dil nahi dukhaunga. ❤️
+
+Aaj main bohat happy hoon, pata nahi kyun mujhe aisa lag raha hai jaise mera khud ka birthday ho. Maybe because tum meri life ka itna important part ho ke tumhari happiness meri happiness ban gayi hai. Tumhara special day mere liye bhi bohat special hai, meri jaan. ❤️
+
+I just want you to know ke you mean so much to me, Wania. I hope tumhari life ka ye new year tumhare liye bohat saari happiness, success, peace aur beautiful memories le kar aaye. Allah tumhari har achi dua qubool kare, tumhe hamesha apni hifazat mein rakhe aur tumhare face ki ye pyari si smile hamesha aise hi rakhe. Ameen. ❤️
+
+Happy Birthday once again, meri baby, meri jaan, my love, my everything. ❤️
+
+I love you sooo much, Waniaaa. More than words can explain. I hope hum hamesha aise hi saath rahein aur InshAllah ek din apni saari dreams saath mein poori karein. ❤️
+
+HAPPY BIRTHDAY, MY BABYYYY! ❤️
     `,
 
     reasons: [
